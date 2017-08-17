@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: ".HiraKakuInterface-W3", 'ヒラギノ角ゴ Pro W3', "Meiryo", "メイリオ", "sans-serif";
+    font-size: 1.4em;
+    line-height: 1.5;
+    letter-spacing: 0.03rem;
+    color: #333;
+}
+
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+
+}
+.header .title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.searchForm {
+    display: flex;
+    align-items: normal;
+    height: 40px;
+}
+.searchFormInput {
+    width: calc(100% - 120px);
+    margin-right: 10px;
+    border: 1px solid #333;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+.searchFormInput:focus {
+    outline: none;
+}
+.searchFormButton {
+    width: 100px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 1.6rem;
+}
+.searchFormButton:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+.searchFormButton:focus {
+    outline: none;
+}
+.searchFormButton:active {
+    outline: none;
+    opacity: 0.5;
+}
+
+.loading {
+    text-align: center;
+    margin: 40px;
+    font-size: 1.8rem;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.repos {
+    padding: 0;
+}
+
+.repos .repo {
+    list-style: none;
+    padding: 20px 10px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.repos .repo .name {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.repos .repo .description {
+    font-size: 1.6rem;
+}
+
+.repository .full_name {
+    font-size: 2.4rem;
+}
+.repository .description {
+    font-size: 1.6rem;
+}
+
+.pre {
+    background-color: #EEE;
+    padding: 20px;
+}
